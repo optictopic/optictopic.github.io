@@ -1,0 +1,90 @@
+/* Reset and global styles */
+/* ... */
+
+/* Header styles */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
+
+header nav .logo img {
+  height: 40px;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin-left: 1rem;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.search-bar input {
+  width: 100%;
+  max-width: 600px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.categories,
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.category,
+.filter {
+  margin: 0.5rem;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.actions button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+/* Tools section styles */
+.tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.tool {
+  text-align: center;
+}
+
+.tool img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer styles */
+/* ... */
